@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    background-color: #D5E1EF ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.card {
+    background-color: white;
+    max-width: 300px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.card__thumbnail {
+    margin: 12px;
+    max-width: calc(100% - 24px);
+    border-radius: 12px;
+}
+
+.card__title {
+    font-weight: 700;
+    margin: 16px;
+}
+
+.card__description {
+    font-weight: 400;
+    font-size: 12px;
+    margin: 18px;
+    margin-bottom: 24px;
+    color: hsl(220, 15%, 55%);
+}
